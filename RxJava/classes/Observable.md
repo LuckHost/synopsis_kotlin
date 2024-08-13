@@ -5,7 +5,7 @@
 ```kotlin
 val observable = Observable.just(1, 2, 3)
 
-val dispose = observable,subscribe({
+val dispose = observable.subscribe({
     Log.e(TAG, "new data $it")
   }, {
 
