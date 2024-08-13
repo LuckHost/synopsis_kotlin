@@ -6,7 +6,7 @@
 
 Более подходит для огромных классов, где есть огромное количество параметров
 
-```
+```kotlin
 data class Car(
   val model = String,
   val engineId = String,

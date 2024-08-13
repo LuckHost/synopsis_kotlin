@@ -51,7 +51,7 @@
 желательно создать обертку и засунуть ее в Di, а потом уже использовать 
 ---
 
-```
+```kotlin
 class AppDispatchers(
     val main: MainCoroutineDispatcher = Dispatchers.Main,
     val default: Coroutine Dispatcher = Dispatchers.Default,

@@ -26,7 +26,7 @@ Context - набор парметров для корутин
 
 ## Создание Scope
 
-```
+```kotlin
 CoroutineScope(Job() + Dispatchers.Deafault)
 
 // or

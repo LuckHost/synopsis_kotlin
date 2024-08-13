@@ -11,12 +11,12 @@
 
 # Создание Flow
 
-```
+```kotlin
 flowOf(1)
 flowOf("a", "b")
 listOf("a", "b").asFlow()
 ```
-```
+```kotlin
 fun fibonacci(count: Int) = flow {
   reqire(count >= 1) { "count must be positive value" }
   emit(1)

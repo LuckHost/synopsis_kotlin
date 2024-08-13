@@ -2,7 +2,7 @@
 
 launch и async нужно обрабатывать по разному
 
-```
+```kotlin
 val job = launch {
     val child = launch {
         try {
@@ -18,7 +18,7 @@ val job = launch {
 //Parent is not cancelled
 ```
 
-```
+```kotlin
 val deferred: Deferred<Data> = async {
   doSomething()
 }
