@@ -50,7 +50,7 @@ Android Runtime
 Появилось понятие Generational GC (поколения проверок) 
 
 ##### Hotspot heap structure
-![Hotspot heap structure](hotspot_heap_structure.webp)
+![Hotspot heap structure](images/hotspot_heap_structure.webp)
 
 Теперь GC анализирует только переполненную часть, что ускоряет работу
 После анализа перемещает объекты в зависимости от их срока жизни в нужную категорию
@@ -59,7 +59,7 @@ Android Runtime
 
 ##### Concurrent Mark Sweep Compact Collection algorithm (CMS)
 
-![cms](Concurrent_Mark_Sweep_Compact_Collection_algorithm_(CMS).png)
+![cms](images/Concurrent_Mark_Sweep_Compact_Collection_algorithm_(CMS).png)
 
 Франментация - когда есть "дыры" в памяти, которых не хватает для записи объекта, ведь они слишком мелкие, при том что их много и они в общем составляют много свободной памяти. Дефрагментация устраняет это
 
