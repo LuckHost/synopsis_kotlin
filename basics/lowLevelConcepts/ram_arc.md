@@ -16,6 +16,12 @@ JVM -> Dalvik Virtual Machine -> Android Runtime
 
 # Garbage collector
 
+Очищает память автоматически
+
+Вызвать можно командой
+`kotlin.native.internal.GC.collect()`
+Но такой подход режко используется 
+
 ### Tracing GC (Android)
 
 все объекты должны быть достижимы из roots (корней сборщика мусора) 
