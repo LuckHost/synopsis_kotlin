@@ -1,6 +1,6 @@
 # Ссылки в Kotlin
 
-[источник](/basics/lowLevelConcepts/ram_arc.md/)
+[файлик](/basics/lowLevelConcepts/ram_arc.md/)
 
 Их всего 4 штуки:
 
@@ -9,5 +9,10 @@
 - weack reference будет удален, как все ссылки на него = null
 - phantom reference всегда будет возвращать null
 
-## Sealed classes
+## HashMap под капотом 
+
+[hashMap файлик](/basics/collections/hashDataStructures/hashmap.md)
+**как работает под капотом** -> [hashSet капотом](/basics/collections/hashDataStructures/hashmap.md)
+
+Есть контейнеры, с помощью хэша объекта и мат. функции вычисляется, в какой контейнер класть объект, также с геттером, поэтому скорость CRUD = O(1)
 
