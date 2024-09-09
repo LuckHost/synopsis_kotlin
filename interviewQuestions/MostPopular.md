@@ -9,3 +9,5 @@
 - weack reference будет удален, как все ссылки на него = null
 - phantom reference всегда будет возвращать null
 
+## Sealed classes
+
