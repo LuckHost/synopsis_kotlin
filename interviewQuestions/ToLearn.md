@@ -9,13 +9,13 @@
 что зачем почему? имеют доступ к переменным внешнего класса. нужен для того, чтоб GC не удалял родительский класс, так как inner класс хранит в себе ссылку на родителя
 - [nested calss](/basics/syntaxKotlin/classes.md/#nested)
 - let run also apply 
-- alias
+- [alias](/basics/syntaxKotlin/alias.md)
 - [можификаторы доступа котлин](/basics/syntaxKotlin/visibilityModifiers.md)
 - any nothing unit
 - extention fun
 - делегаты
 - делегаты для интерфейсов 
-- референсы?? sol
+- референсы?? solvery
 - референсы - ссылка на ссылку на объект 
 - [generic](/basics/syntaxKotlin/generics.md)
   - [инвариантность](/basics/syntaxKotlin/generics.md/#инвариантность)
