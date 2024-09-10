@@ -1,27 +1,29 @@
 # Kotlin
-- hashmap
-- Object
-- Companion object
-- inline class
-- inline fun
-- inner class
+- [тут](/basics/collections/hashDataStructures/About.md/#hashmap)
+- [Object](/basics/syntaxKotlin/classes.md/#object)
+- object как объект класса
+- [Companion object](/basics/syntaxKotlin/classes.md/#companion-object)
+- [inline class](/basics/syntaxKotlin/classes.md/#inline)
+- [inline fun](/basics/syntaxKotlin/classes.md/#inline-function)
+- [inner class](/basics/syntaxKotlin/classes.md/#inner)
 что зачем почему? имеют доступ к переменным внешнего класса. нужен для того, чтоб GC не удалял родительский класс, так как inner класс хранит в себе ссылку на родителя
-- nested calss
+- [nested calss](/basics/syntaxKotlin/classes.md/#nested)
 - let run also apply 
 - alias
-- можификаторы доступа котлин
+- [можификаторы доступа котлин](/basics/syntaxKotlin/visibilityModifiers.md)
 - any nothing unit
 - extention fun
 - делегаты
 - делегаты для интерфейсов 
-- референсы
-- generic
-  - инвариантность
-  - контрвариантность
-  - ковариантность 
-- работа hash map 
-  - время работы
-  - что внутри
+- референсы?? sol
+- референсы - ссылка на ссылку на объект 
+- [generic](/basics/syntaxKotlin/generics.md)
+  - [инвариантность](/basics/syntaxKotlin/generics.md/#инвариантность)
+  - [контрвариантность](/basics/syntaxKotlin/generics.md/#контравариантность)
+  - [ковариантность](/basics/syntaxKotlin/generics.md/#ковариантость) 
+- [работа hash map](/basics/collections/hashDataStructures/hashmap.md)
+  - [время работы](/basics/collections/hashDataStructures/hashmap.md/#мотивация-использовать-хеш-таблицы)
+  - что внутри [основано на этом](/basics/collections/hashDataStructures/HashSet.md/#как-это-все-работает)
 - sealed clases
 
  
