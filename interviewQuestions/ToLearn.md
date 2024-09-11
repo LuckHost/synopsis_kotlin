@@ -8,12 +8,12 @@
 - [inner class](/basics/syntaxKotlin/classes.md/#inner)
 что зачем почему? имеют доступ к переменным внешнего класса. нужен для того, чтоб GC не удалял родительский класс, так как inner класс хранит в себе ссылку на родителя
 - [nested calss](/basics/syntaxKotlin/classes.md/#nested)
-- let run also apply 
+- [let run also apply](/basics/syntaxKotlin/scopeFunctions.md) 
 - [alias](/basics/syntaxKotlin/alias.md)
 - [можификаторы доступа котлин](/basics/syntaxKotlin/visibilityModifiers.md)
-- any nothing unit
+- [any nothing unit](/basics/syntaxKotlin/anyNothingUnit.md)
 - extention fun
-- делегаты
+- [делегаты](/basics/syntaxKotlin/delegats.md)
 - делегаты для интерфейсов 
 - референсы?? solvery
 - референсы - ссылка на ссылку на объект 
