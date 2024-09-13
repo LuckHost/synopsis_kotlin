@@ -24,7 +24,7 @@
 - [работа hash map](/basics/collections/hashDataStructures/hashmap.md)
   - [время работы](/basics/collections/hashDataStructures/hashmap.md/#мотивация-использовать-хеш-таблицы)
   - что внутри [основано на этом](/basics/collections/hashDataStructures/HashSet.md/#как-это-все-работает)
-- sealed clases
+- [sealed clases](/basics/syntaxKotlin/classes.md/#sealed-class) 
 
  
  ---
@@ -37,7 +37,7 @@
 
 # Android
 
-- idl
+- [idl](/android/aidl.md)
 - resources 
 - fragments 
 - work manager
@@ -49,7 +49,7 @@
   - dml\ddl
   dml - работа с бд ddl - работа с таблицей
 - виды архитетур 
-- [x] паттерны [здесь](/patterns/About.md)
+- [паттерны](/patterns/About.md)
 - flow\rxJava operators [тут один из](/RxJava/transformation/map/map.md)
  ---
 
