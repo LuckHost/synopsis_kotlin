@@ -38,17 +38,17 @@
 # Android
 
 - [idl](/android/aidl.md)
-- resources 
+- [resources](/android/resources.md)
 - fragments 
-- work manager
+- [work manager](/android/workManager.md)
 - pushes (firebase)
-- deep link
+- [deep link](/android/deeplinks.md)
 - socket
 - версии андроид
 - sql
   - dml\ddl
   dml - работа с бд ddl - работа с таблицей
-- виды архитетур 
+- [виды архитетур](/architectures/About.md)
 - [паттерны](/patterns/About.md)
 - flow\rxJava operators [тут один из](/RxJava/transformation/map/map.md)
  ---
