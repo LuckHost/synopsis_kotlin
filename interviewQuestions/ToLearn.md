@@ -1,5 +1,5 @@
 # Kotlin
-- [тут](/basics/collections/hashDataStructures/About.md/#hashmap)
+- [hashmap](/basics/collections/hashDataStructures/About.md/#hashmap)
 - [Object](/basics/syntaxKotlin/classes.md/#object)
 - object как объект класса
 - [Companion object](/basics/syntaxKotlin/classes.md/#companion-object)
@@ -32,8 +32,17 @@
  # JAVA
 
  - проверяемые исключения 
+ - collections
+ - симофоры
 
- ---
+---
+
+# Общее
+
+ - Гонки потоков
+ - collections
+
+---
 
 # Android
 
