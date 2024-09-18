@@ -46,6 +46,7 @@
 
 # Android
 
+- custom view
 - [idl](/android/aidl.md)
 - [resources](/android/resources.md)
 - fragments 
@@ -57,12 +58,14 @@
 - sql
   - dml\ddl
   dml - работа с бд ddl - работа с таблицей
+  - миграции
+  - версии бд
 - [виды архитетур](/architectures/About.md)
 - [паттерны](/patterns/About.md)
 - flow\rxJava operators [тут один из](/RxJava/transformation/map/map.md)
  ---
 
 # Задачи
-
+- проектирование в реальном времени
 - поиск бинарный\быстрый\тд
 - что такое сложность память время выполнения 
