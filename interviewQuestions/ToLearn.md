@@ -75,7 +75,7 @@
   - версии бд
 - [виды архитетур](/architectures/About.md)
 - [паттерны](/patterns/About.md)
-- flow\rxJava operators [тут один из](/RxJava/transformation/map/map.md)
+- flow\rxJava operators [тут один из](/libraries/RxJava/transformation/map/map.md)
  ---
 
 # Задачи
