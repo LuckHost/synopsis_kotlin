@@ -25,6 +25,7 @@
   - [время работы](/basics/collections/hashDataStructures/hashmap.md/#мотивация-использовать-хеш-таблицы)
   - что внутри [основано на этом](/basics/collections/hashDataStructures/HashSet.md/#как-это-все-работает)
 - [sealed clases](/basics/syntaxKotlin/classes.md/#sealed-class) 
+- data class что генерирует
 
  
  ---
@@ -41,21 +42,33 @@
 
  - Гонки потоков
  - collections
+ - вызов статических переменных в Kotlin из Java
 
 ---
 
 # Android
 
+- coroutines (kotlin)
+  - scope
+  - context
+  - обработка ошибок
+  - dispatcher
+  - state flow \ shared flow
+
+
 - custom view
 - [idl](/android/aidl.md)
 - [resources](/android/resources.md)
+- вызовы перерисовки экрана вручную (invalidate, request layout)
 - fragments 
+- fragment result api (достаточно новая, не так важно)
 - [work manager](/android/workManager.md)
 - pushes (firebase)
 - [deep link](/android/deeplinks.md)
 - socket
 - версии андроид
 - sql
+  - room и когда генерится код у room
   - dml\ddl
   dml - работа с бд ddl - работа с таблицей
   - миграции
@@ -69,3 +82,11 @@
 - проектирование в реальном времени
 - поиск бинарный\быстрый\тд
 - что такое сложность память время выполнения 
+
+--- 
+
+# Поведение на собесе
+
+- Важно, чтоб из тебя не вытягивали инфу
+- важно идти на контакт 
+- важно вовремя заканчивать рассказ вовремя 
