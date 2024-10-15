@@ -47,10 +47,12 @@ class MainViewModelFactory(
 ```kotlin
 @Module
 class AppModule(val context: Context) {
+    @Provides
     fun provideContext(): Context {
         return context
     }
 
+    @Provides
     fun provideMainViewModelFactory(
         getCoolParamsUseCase: getCoolParamsUseCase,
         saveCoolParamsUseCase: saveCoolParamsUseCase,
