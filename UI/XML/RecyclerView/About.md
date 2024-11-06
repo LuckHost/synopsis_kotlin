@@ -1,6 +1,7 @@
 # Recycler View
 
-[источник](https://habr.com/ru/articles/705064/)
+[источник раз](https://habr.com/ru/articles/705064/)
+[источник два](https://developer.android.com/develop/ui/views/layout/recyclerview)
 
 RecyclerView "из коробки" предоставляет гораздо больше инструментов для кастомизации и оптимизации списка, чем ListView. Если кратко характеризовать RecyclerView, то можно сказать, что это список на стероидах.
 
@@ -51,28 +52,29 @@ class CustomAdapter(private val dataSet: Array<String>) :
         RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 
     /**
-     * Provide a reference to the type of views that you are using
-     * (custom ViewHolder)
+     * Укажите тип используемых вами представлений
+     * (пользовательский ViewHolder)
      */
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val textView: TextView
 
         init {
-            // Define click listener for the ViewHolder's View
+            // Определите слушиватель нажатий для представления Viewholder
             textView = view.findViewById(R.id.textView)
         }
     }
 
-    // Create new views (invoked by the layout manager)
+    // Создание новых представлений (вызывается менеджером компоновки)
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): ViewHolder {
-        // Create a new view, which defines the UI of the list item
+        // Создание нового представления, 
+        // которое определяет пользовательский интерфейс элемента списка
         val view = LayoutInflater.from(viewGroup.context)
                 .inflate(R.layout.text_row_item, viewGroup, false)
 
         return ViewHolder(view)
     }
 
-    // Replace the contents of a view (invoked by the layout manager)
+    // Заменить содержимое представления (вызывается менеджером компоновки)
     override fun onBindViewHolder(viewHolder: ViewHolder, position: Int) {
 
         // Get element from your dataset at this position and replace the
@@ -80,7 +82,7 @@ class CustomAdapter(private val dataSet: Array<String>) :
         viewHolder.textView.text = dataSet[position]
     }
 
-    // Return the size of your dataset (invoked by the layout manager)
+    // Возвращает размер вашего набора данных (вызывается менеджером компоновки).
     override fun getItemCount() = dataSet.size
 
 }

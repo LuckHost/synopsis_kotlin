@@ -35,9 +35,29 @@ companion object {
 Размещаем [FrameLayout](/UI/XML/Layouts/FrameLayout.md) на Activity
 
 В Activity размещаем следующий код
+
+```kotlin
+// Создаем экземпляр фрагмента
+val fragment = MyFragment().newInstance()
+
+// Добавляем фрагмент в контейнер
+supportFragmentManager.beginTransaction()
+    .add(R.id.fragment_container, fragment)
+    .commit()
+```
+
+Если же мы хотим заменить фрагмент
 ```kotlin
   supportFragmentManager
     .beginTransaction()
-    .replace(R.id.frame_layout_name, FragmentName.newInstance())
+    .replace(R.id.frame_layout_name, newFragment)
     .commit
+```
+
+Чтобы сохранить состояние при возврате к предыдущему фрагменту, можно добавить транзакцию в стек:
+```kotlin
+supportFragmentManager.beginTransaction()
+  .replace(R.id.fragment_container, newFragment)
+  .addToBackStack(null)
+  .commit()
 ```
