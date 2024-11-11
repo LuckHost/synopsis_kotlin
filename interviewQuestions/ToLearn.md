@@ -8,9 +8,9 @@
 - [inner class](/basics/syntaxKotlin/classes.md/#inner)
 что зачем почему? имеют доступ к переменным внешнего класса. нужен для того, чтоб GC не удалял родительский класс, так как inner класс хранит в себе ссылку на родителя
 - [nested calss](/basics/syntaxKotlin/classes.md/#nested)
-- [let run also apply](/basics/syntaxKotlin/scopeFunctions.md) 
+- [let run with also apply](/basics/syntaxKotlin/scopeFunctions.md) 
 - [alias](/basics/syntaxKotlin/alias.md)
-- [можификаторы доступа котлин](/basics/syntaxKotlin/visibilityModifiers.md)
+- [модификаторы доступа котлин](/basics/syntaxKotlin/visibilityModifiers.md)
 - [any nothing unit](/basics/syntaxKotlin/anyNothingUnit.md)
 - extention fun
 - [делегаты](/basics/syntaxKotlin/delegats.md)
@@ -48,7 +48,7 @@
 
 # Android
 
-- coroutines (kotlin)
+- [coroutines (kotlin)](/coroutines/Coroutines_1.md)
   - scope
   - context
   - обработка ошибок
