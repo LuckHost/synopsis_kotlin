@@ -25,7 +25,7 @@
   - [время работы](/basics/collections/hashDataStructures/hashmap.md/#мотивация-использовать-хеш-таблицы)
   - что внутри [основано на этом](/basics/collections/hashDataStructures/HashSet.md/#как-это-все-работает)
 - [sealed clases](/basics/syntaxKotlin/classes.md/#sealed-class) 
-- data class что генерирует
+- [data class что генерирует](/basics/syntaxKotlin/classes.md/#data-class)
 
  
  ---
@@ -42,7 +42,7 @@
 
  - Гонки потоков
  - collections
- - вызов статических переменных в Kotlin из Java
+ - [вызов статических переменных в Kotlin из Java](/basics/static.md#java-with-kotlin)
 
 ---
 
@@ -56,11 +56,11 @@
   - state flow \ shared flow
 
 
-- custom view
+- [custom view](/UI/XML/CustomView.md)
 - [idl](/android/aidl.md)
 - [resources](/android/resources.md)
 - вызовы перерисовки экрана вручную (invalidate, request layout)
-- fragments 
+- [fragments](/UI/XML/Fragments/About.md) 
 - fragment result api (достаточно новая, не так важно)
 - [work manager](/android/workManager.md)
 - pushes (firebase)
