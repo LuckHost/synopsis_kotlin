@@ -68,7 +68,7 @@
 - socket
 - версии андроид
 - sql
-  - room и когда генерится код у room
+  - [room](/libraries/SQL/room/About.md) и [когда генерится код у room](/libraries/SQL/room/inside.md)
   - dml\ddl
   dml - работа с бд ddl - работа с таблицей
   - миграции
