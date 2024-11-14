@@ -76,6 +76,15 @@
 - [виды архитетур](/architectures/About.md)
 - [паттерны](/patterns/About.md)
 - flow\rxJava operators [тут один из](/libraries/RxJava/transformation/map/map.md)
+
+- стабильность compose
+- что такое compose
+- что такое стабильность
+- [отличие Activity context от Application Context](/android/context.md)
+- переменные к которым нужно обращаться на корутинах
+- android manifest что мы указываем в опциях старта 
+- crossline что это такое 
+- наследнки класса Object java
  ---
 
 # Задачи
