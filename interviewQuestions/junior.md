@@ -11,17 +11,17 @@
 Структуры данных
 Расскажите о таких структурах данных, как List, Set, Map?
 Какая разница между ArrayList и LinkedList?
-Из каких компонентов состоит библиотека Room?
-Что такое @PrimaryKey, @Ignore, @Embedded, @TypeConverters в Room?
+Из каких компонентов состоит библиотека Room? [answer](/libraries/SQL/room/About.md/#компоненты)
+Что такое @PrimaryKey, @Ignore, @Embedded, @TypeConverters в Room? [answer](/libraries/SQL/room/Annotations.md)
 Для чего нужна миграция в базах данных?
-Что такое процесс?
-Что такое поток?
-Для чего используют ключевое слово synchronized?
-Зачем синхронизировать потоки?
-Какая разница между синхронным и асинхронным исполнением?
+Что такое процесс? [answer](/processAndStreaming/About.md)
+Что такое поток? [answer](/processAndStreaming/About.md)
+Для чего используют ключевое слово synchronized? [answer](/processAndStreaming/synchronized.md)
+Зачем синхронизировать потоки? [описание проблемы](/processAndStreaming/synchronized.md)
+Какая разница между синхронным и асинхронным исполнением? [answer](/processAndStreaming/AsyncAndSync.md)
 Как мы можем создать поток в Java?
-Что такое deadlock?
-Какие варианты реализации многопоточности есть в Android?
+Что такое deadlock?[answer](/processAndStreaming/Deadlock.md)
+Какие варианты реализации многопоточности есть в Android? [answer](/processAndStreaming/AsyncAndSync.md/#асинхронное-програмирование)
 Что такое main thread? Какие операции нужно выполнять на main thread, а какие нельзя делать?
 
 # Java 
@@ -60,8 +60,7 @@
 - Activity
 - Content Provider
 
-Что такое ContentProvider?
-- [answer](/android/appComponents/components/ContentProvider.md)
+Что такое ContentProvider? [answer](/android/appComponents/components/ContentProvider.md)
 
 Какие типы Service знаете?
 
@@ -71,4 +70,57 @@
 
 Что такое изменение конфигурации? Что происходит с приложением на Android при этом? [answer](/android/appComponents/AndroidManifest.md/#конфигурация-и-ее-изменение)
 
-Что такое Intent? Что такое explicit/implicit Intent?
+Что такое Intent? Что такое explicit/implicit Intent? [answer](/android/appComponents/intent.md)
+
+Что такое ANR? Как избегать таких ситуаций?
+
+Что такое DataBinding?
+
+Что такое LiveData? Какие виды знаете?
+
+Расскажите, что нужно реализовать, чтобы отобразить список строк в RecyclerView.
+
+Объясните паттерн ViewHolder. Для чего он применяется?
+
+Что такое DiffUtil?
+
+Для чего используют Group, Guideline, Barriers, Chains в ConstraintLayout?
+
+Что такое WorkManager? Когда используем?
+
+# Kotlin 
+
+Как задекларировать getter/setter для property?
+Почему классы Kotlin по умолчанию final?
+Какая разница между sealed class и enum?
+Почему у Kotlin нет checked exceptions?
+Что такое перегрузка операторов (operator overloading)? Зачем нужен этот механизм?
+Как работают примитивы в Kotlin?
+Чем отличается const val от val?
+
+Зачем нужны Coroutines? Чем они лучше обычных тредов?
+Что такое suspend-функция?
+Что такое Job?
+Что такое Dispatcher? Какие есть виды?
+Что такое Scope?
+Как писать Java compatible API в Kotlin?
+
+# Другое
+
+Расскажите, что такое memory leak. Как избежать?
+
+Как бы вы искали memory leak?
+
+Расскажите о Dependency injection. Какие варианты реализации в Android?
+
+Для чего нужна система контроля версий?
+
+Что такое Git?
+
+Для чего используем .gitignore-файл?
+
+Расскажите о командах push, pull, fetch в Git?
+
+Что такое merge и rebase? Какая разница?
+
+Что такое CI? Зачем используем?

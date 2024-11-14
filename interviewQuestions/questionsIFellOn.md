@@ -5,6 +5,7 @@
 - отличия app context от application context
 - composition local
 - стабильность в compose
+- методы object
 
 ---
 
