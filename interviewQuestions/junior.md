@@ -9,8 +9,8 @@
  
 
 Структуры данных
-Расскажите о таких структурах данных, как List, Set, Map?
-Какая разница между ArrayList и LinkedList?
+Расскажите о таких структурах данных, как List, Set, Map? [answer](/basics/collections/About.md)
+Какая разница между ArrayList и LinkedList? [answer](/basics/collections/List.md)
 Из каких компонентов состоит библиотека Room? [answer](/libraries/SQL/room/About.md/#компоненты)
 Что такое @PrimaryKey, @Ignore, @Embedded, @TypeConverters в Room? [answer](/libraries/SQL/room/Annotations.md)
 Для чего нужна миграция в базах данных?
@@ -26,18 +26,18 @@
 
 # Java 
 
-Что такое Exceptions? Зачем они нужны?
-Зачем используют ключевые слова final, finally и finalize?
+Что такое Exceptions? Зачем они нужны? [answers](/basics/syntaxJava/Exceptions.md)
+Зачем используют ключевые слова final, finally и finalize? [answer](/basics/syntaxJava/FinalFinallyFinalize.md)
 Что такое абстрактный класс? Что такое интерфейс?
 Что такое анонимный класс? Использовали ли на практике? Для чего?
 Что такое статический класс (static class)?
 Что такое enum? Зачем его используют?
 Можем ли мы сделать конструктор приватным?
 Какая разница между ключевыми словами throw и throws?
-Какая разница между Error и Exception?
-Какая разница между checked и unchecked exception?
-Что такое Object class и какие методы он имеет?
-Какие существуют модификаторы доступа для классов? Какая разница между ними?
+Какая разница между Error и Exception? [answers](/basics/syntaxJava/Exceptions.md)
+Какая разница между checked и unchecked exception? [answers](/basics/syntaxJava/Exceptions.md)
+Что такое Object class и какие методы он имеет? [answers](/basics/syntaxJava/Object.md)
+Какие существуют модификаторы доступа для классов? Какая разница между ними? [answer](/basics/visibilityModifiers.md)
 Что такое итератор?
 Как безопасно удалить элемент из коллекции?
 Зачем нам переопределять equals() и когда не нужно это делать?
