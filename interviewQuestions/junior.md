@@ -72,11 +72,11 @@
 
 Что такое Intent? Что такое explicit/implicit Intent? [answer](/android/appComponents/intent.md)
 
-Что такое ANR? Как избегать таких ситуаций?
+Что такое ANR? Как избегать таких ситуаций? [answer](/processAndStreaming/About.md/#anr)
 
-Что такое DataBinding?
+Что такое DataBinding? [answer](/UI/XML/DataBinding.md)
 
-Что такое LiveData? Какие виды знаете?
+Что такое LiveData? Какие виды знаете? [answer](/libraries/LiveData/LiveData.md/#виды)
 
 Расскажите, что нужно реализовать, чтобы отобразить список строк в RecyclerView.
 
