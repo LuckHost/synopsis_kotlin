@@ -3,7 +3,7 @@
 ```kotlin
 val disposable = Observable.just("First item", "Second item", "Third item")
         .debounce(
-          //представим, что данные призодят быстро
+          //представим, что данные приходят быстро
           500,
           TimeUnit.MILLISECONDS
         )

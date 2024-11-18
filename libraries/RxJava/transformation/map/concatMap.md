@@ -4,25 +4,6 @@
 
 Обрабатывает все элементы в их порядке
 
-```kotlin
-val disposable: Disposable = Observable.just("First item", "Second item", "Third item")
-        .flatMap(
-          // предствим, что метод достаточно нагружен для того, чтоб flatMap мог ожидать выполнение некоторых потоков дольше, чем других, из-за чего и будет происходить разброс в порядке выдачи
-          Observable.just(it + " мегакрутой")
-        )
-        .subscribe({
-          println(it)
-        }, {
-          
-        })
-``` 
-
-Вывод:
-
-First item мегакрутой
-Second item мегакрутой
-Third item мегакрутой
-
 ---
 ## Пример
 

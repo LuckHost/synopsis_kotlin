@@ -19,7 +19,7 @@
 Для чего используют ключевое слово synchronized? [answer](/processAndStreaming/synchronized.md)
 Зачем синхронизировать потоки? [описание проблемы](/processAndStreaming/synchronized.md)
 Какая разница между синхронным и асинхронным исполнением? [answer](/processAndStreaming/AsyncAndSync.md)
-Как мы можем создать поток в Java?
+Как мы можем создать поток в Java? [answer](/basics/syntaxJava/Asynchrony/Threads.md)
 Что такое deadlock?[answer](/processAndStreaming/Deadlock.md)
 Какие варианты реализации многопоточности есть в Android? [answer](/processAndStreaming/AsyncAndSync.md/#асинхронное-програмирование)
 Что такое main thread? Какие операции нужно выполнять на main thread, а какие нельзя делать?
@@ -38,15 +38,15 @@
 Какая разница между checked и unchecked exception? [answers](/basics/syntaxJava/Exceptions.md)
 Что такое Object class и какие методы он имеет? [answers](/basics/syntaxJava/Object.md)
 Какие существуют модификаторы доступа для классов? Какая разница между ними? [answer](/basics/visibilityModifiers.md)
-Что такое итератор?
-Как безопасно удалить элемент из коллекции?
+Что такое итератор? [answer](/basics/collections/iterator.md)
+Как безопасно удалить элемент из коллекции? [answer](/basics/collections/iterator.md/#безопасный-способ-удаления-элемнтов)
 Зачем нам переопределять equals() и когда не нужно это делать?
-Какой должен выполняться контракт при переопределении equals()?
+Какой должен выполняться контракт при переопределении equals()? [answer](/basics/collections/HashCodeAndEquals.md)
 
 # RxJava
 
-В чем разница между map() и flatMap() в RxJava?
-Когда используете observeOn(), а когда subscribeOn()?
+В чем разница между map() и flatMap() в RxJava? [answer](/libraries/RxJava/MapAndFlatMap.md)
+Когда используете observeOn(), а когда subscribeOn()? [answer](/libraries/RxJava/About.md)
 Как можно обработать ошибки в RxJava?
 Какие schedulers знаете в RxJava? Назовите их отличия.
 Что такое Disposable? Зачем его используют?
@@ -78,7 +78,7 @@
 
 Что такое LiveData? Какие виды знаете? [answer](/libraries/LiveData/LiveData.md/#виды)
 
-Расскажите, что нужно реализовать, чтобы отобразить список строк в RecyclerView.
+Расскажите, что нужно реализовать, чтобы отобразить список строк в RecyclerView. [answer](/UI/XML/RecyclerView/About.md)
 
 Объясните паттерн ViewHolder. Для чего он применяется?
 
