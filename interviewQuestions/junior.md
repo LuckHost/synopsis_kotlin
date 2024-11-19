@@ -47,7 +47,7 @@
 
 В чем разница между map() и flatMap() в RxJava? [answer](/libraries/RxJava/MapAndFlatMap.md)
 Когда используете observeOn(), а когда subscribeOn()? [answer](/libraries/RxJava/About.md)
-Как можно обработать ошибки в RxJava?
+Как можно обработать ошибки в RxJava? [answer](/libraries/RxJava/Exeptions.md)
 Какие schedulers знаете в RxJava? Назовите их отличия.
 Что такое Disposable? Зачем его используют?
 В чем разница между Hot и Cold Observables? Назовите примеры в RxJava.
