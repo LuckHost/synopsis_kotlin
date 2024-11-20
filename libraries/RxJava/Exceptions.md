@@ -1,4 +1,4 @@
-## Exeptions в RxJava
+## Exceptions в RxJava
 
 [источник](https://www.geeksforgeeks.org/error-handling-in-rxjava/?ysclid=m3o1dve1o744606776)
 
@@ -208,5 +208,3 @@ onNext: Received: 9
 onComplete: Completed
 
 ```
-
-##### onErrorReturnItem

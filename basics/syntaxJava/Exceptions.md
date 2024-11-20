@@ -28,7 +28,7 @@
 
 Все ошибки и исключения наследуются от класса **Throwable**
 
-![Ошибочки и иерархия](./images/ExeptionErrorHierarchy.png)
+![Ошибочки и иерархия](./images/ExсeptionErrorHierarchy.png)
 
 
 #### Виды исключений

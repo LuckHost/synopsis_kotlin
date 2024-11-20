@@ -1,5 +1,5 @@
 - reified crossinline
-- coroutine exeption handler
+- coroutine exсeption handler
 - launch mod
 - сказал что shared flow холоный
 - отличия app context от application context
