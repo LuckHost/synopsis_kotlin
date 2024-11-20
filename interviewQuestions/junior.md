@@ -50,15 +50,17 @@
 
 Что такое абстрактный класс? Что такое интерфейс?
 
-Что такое анонимный класс? Использовали ли на практике? Для чего?
+Что такое анонимный класс? Использовали ли на практике? Для чего? [answer](/basics/syntaxJava/AnonymousClasses.md)
 
 Что такое статический класс (static class)?
 
 Что такое enum? Зачем его используют?
 
 Можем ли мы сделать конструктор приватным?
+`Да, можем, для того, чтоб сделать создание класса извне невозможным. System и Math обладают таким свойством` 
 
 Какая разница между ключевыми словами throw и throws?
+`throw - выбросить исключение. throws - ключевое слово, которое предупреждает о том, что метод может выбрасывать исключения`
 
 Какая разница между Error и Exception? [answers](/basics/syntaxJava/Exceptions.md)
 
@@ -72,9 +74,9 @@
 
 Как безопасно удалить элемент из коллекции? [answer](/basics/collections/iterator.md/#безопасный-способ-удаления-элемнтов)
 
-Зачем нам переопределять equals() и когда не нужно это делать?
+Зачем нам переопределять equals() и когда не нужно это делать? [answer](/basics/HashCodeAndEquals.md)
 
-Какой должен выполняться контракт при переопределении equals()? [answer](/basics/collections/HashCodeAndEquals.md)
+Какой должен выполняться контракт при переопределении equals()? [answer](/basics/HashCodeAndEquals.md)
 
 # RxJava
 
@@ -88,7 +90,7 @@
 
 Что такое Disposable? Зачем его используют? [answer](/libraries/RxJava/Disposable.md)
 
-В чем разница между Hot и Cold Observables? Назовите примеры в RxJava.
+В чем разница между Hot и Cold Observables? Назовите примеры в RxJava. [answer](/processAndStreaming/HotAndColdObservables.md)
 
 # Android SDK
 
@@ -102,7 +104,8 @@
 
 Какие типы Service знаете? [answer](/android/appComponents/components/Service.md)
 
-Что такое BroadcastReceiver и какие типы существуют?
+Что такое BroadcastReceiver и какие типы существуют? [answer](/android/appComponents/components/broadcastReceiver.md)
+
 Опишите [жизненный цикл Activity](/android/appComponents/activityLifecycle.md).
 
 Опишите [жизненный цикл Fragment](/UI/XML/Fragments/LifeCycle.md).
@@ -123,9 +126,9 @@
 
 Что такое DiffUtil? [answer](/UI/XML/RecyclerView/DiffUtil.md)
 
-Для чего используют Group, Guideline, Barriers, Chains в ConstraintLayout?
+Для чего используют Group, Guideline, Barriers, Chains в ConstraintLayout? [answer](/UI/XML/Layouts/ConstraintLayout.md)
 
-Что такое WorkManager? Когда используем?
+Что такое WorkManager? Когда используем? [answer](/android/workManager.md)
 
 # Kotlin 
 

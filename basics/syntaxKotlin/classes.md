@@ -161,3 +161,20 @@ public final class SimpleClassKotlin1 {
   }
 }
 ```
+
+## anonymous class
+
+```kotlin
+fun main() {
+    // Анонимный класс для Comparator
+    val comparator = object : Comparator<Int> {
+        override fun compare(o1: Int, o2: Int): Int {
+            return o1 - o2
+        }
+    }
+
+    val result = comparator.compare(5, 3)
+    println("Результат: $result")
+}
+
+```
