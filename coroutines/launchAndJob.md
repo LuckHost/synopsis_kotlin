@@ -1,5 +1,7 @@
 # Job
 
+[источник](https://metanit.com/kotlin/tutorial/8.3.php)
+
 Для того, чтоб запускать корутины, нам нужно их как-то собирать
 
 Делать это можно с помощью `launch`
@@ -45,6 +47,13 @@ Start
 5
 End
 ```
+
+### Свойства Job
+
+Их всего 3 штуки:
+- **isActive**
+- **isCancelled**
+- **isCompleted**
 
 ### Жизненный цикл Job
 ![](image/2_1.png)
