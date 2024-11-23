@@ -19,12 +19,12 @@ public class Program {
     }
 }
  
-class CommonResource{
+class CommonResource {
      
     int x=0;
 }
  
-class CountThread implements Runnable{
+class CountThread implements Runnable {
  
     CommonResource res;
     CountThread(CommonResource res){
