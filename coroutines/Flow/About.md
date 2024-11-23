@@ -28,7 +28,7 @@ fun fibonacci(count: Int) = flow {
   var previous = 1
   var current = 1
 
-  for (i ni 3..count) {
+  for (i in 3..count) {
     val a = current
     current += previous
     previous = a
@@ -36,18 +36,3 @@ fun fibonacci(count: Int) = flow {
   }
 }
 ```
-
-### Терминальные операторы
-
-вызываются из корутин, либо 
-
-flow<T>.launchIn(scope)
-
-### Кэширование 
-
-flow.buffer(
-  capacity = Channel.BUFFERED,
-  onBufferOverflow = BufferOverflow.SUSPEND
-)
-
-собирает данные и передает коллектору не тормозя flow

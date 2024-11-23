@@ -146,15 +146,15 @@
 
 Чем отличается const val от val?
 
-Зачем нужны Coroutines? Чем они лучше обычных тредов?
+Зачем нужны Coroutines? Чем они лучше обычных тредов? [answer](/coroutines/About.md)
 
 Что такое suspend-функция?
 
-Что такое Job?
+Что такое Job? [answer](/coroutines/launchAndJob.md)
 
-Что такое Dispatcher? Какие есть виды?
+Что такое Dispatcher? Какие есть виды? [answer](/coroutines/Dispatcher.md)
 
-Что такое Scope?
+Что такое Scope? [answer](/coroutines/Scope.md)
 
 Как писать Java compatible API в Kotlin?
 
