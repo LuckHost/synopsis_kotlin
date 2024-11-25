@@ -51,18 +51,18 @@ HashMap. Используете ли вы на практике? Если да, 
 
 ## Работа с сетью
 
-Расскажите, какие методы можно применить в REST API? Зачем какой нужен?
+Расскажите, какие методы можно применить в REST API? Зачем какой нужен? [answer](/basics/networkPatterns/REST.md)
 
-Что можно использовать, кроме REST API, для работы с сервером?
+Что можно использовать, кроме REST API, для работы с сервером? [GraphQL](/basics/networkPatterns/GraphQL.md)
 
 
 ### Многопоточность
 
 Что такое Thread Pool? Каковы его особенности? [answer](/basics/syntaxJava/Asynchrony/ThreadPool.md)
 
-Что такое Executor/ExecutorService? Какую задачу выполняют и как использовать?
+Что такое Executor/ExecutorService? Какую задачу выполняют и как использовать? [answer](/basics/syntaxJava/Asynchrony/ExecutorAndExecutorService.md)
 
-Какие есть виды Executor?
+Какие есть виды Executor? [answer](/basics/syntaxJava/Asynchrony/ExecutorAndExecutorService.md)
 
 Какая разница между методами start() и run() в классе Thread? [answer](/basics/syntaxJava/Asynchrony/Threads.md)
 
