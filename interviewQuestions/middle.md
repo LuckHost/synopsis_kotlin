@@ -22,11 +22,11 @@
 
 MVP vs MVVM – в чем основное отличие?
 
-Алгоритмы
+**Алгоритмы**
 
 Есть много алгоритмов сортировки. Возможно ли выбрать один самый быстрый и использовать его повсюду? Почему да/нет?
 
-В чем сложность поиска произвольного элемента в ArrayList? В LinkedList?
+В чем сложность поиска произвольного элемента в ArrayList? В LinkedList? [answer](/basics/collections/List.md/#сравнение)
 
 Какие алгоритмы используют в Android/Java коллекциях под капотом?
 
@@ -58,23 +58,23 @@ HashMap. Используете ли вы на практике? Если да, 
 
 ### Многопоточность
 
-Что такое Thread Pool? Каковы его особенности?
+Что такое Thread Pool? Каковы его особенности? [answer](/basics/syntaxJava/Asynchrony/ThreadPool.md)
 
 Что такое Executor/ExecutorService? Какую задачу выполняют и как использовать?
 
 Какие есть виды Executor?
 
-Какая разница между методами start() и run() в классе Thread?
+Какая разница между методами start() и run() в классе Thread? [answer](/basics/syntaxJava/Asynchrony/Threads.md)
 
 На что указывает ключевое слово synchronized? Какова его основная функция? [answer](/processAndStreaming/synchronized.md)
 
-Модификатор volatile. Приходилось ли использовать? Зачем нужен?
+Модификатор volatile. Приходилось ли использовать? Зачем нужен? [answer](/basics/VolatileSynchronizedAtomic.md)
 
 Знаете ли вы о таком понятии, как «эффект гонки» (race condition)? Как это предотвратить? Какие механизмы в Java для предотвращения этого?
 
 Что такое атомарная операция?
 
-Как остановить поток в Java? Можно ли продолжить выполнение потока после его остановки?
+Как остановить поток в Java? Можно ли продолжить выполнение потока после его остановки? [answer](/basics/syntaxJava/Asynchrony/ThreadsTermination.md)
 
 Знаете ли вы о потокобезопасных коллекциях в Java/Android? Приходилось ли их использовать?
 
@@ -130,7 +130,7 @@ HashMap. Используете ли вы на практике? Если да, 
 
 Что такое App Standby mode?
 
-Что такое AIDL и зачем он нужен? Какие типы данных поддерживаются?
+Что такое AIDL и зачем он нужен? Какие типы данных поддерживаются? [answer](/android/aidl.md)
 
 Что такое Multidex?
 
@@ -144,7 +144,7 @@ HashMap. Используете ли вы на практике? Если да, 
 
 Что такое SSL/TLS Pinning? Как его реализовать в Android?
 
-Что такое ViewBinding?
+Что такое ViewBinding? [answer](/UI/XML/ViewBinding.md)
 
 Для чего нужны методы onSaveInstanceState/onRestoreInstanceState? Что такое permissions? Как запросить permissions?
 
@@ -152,11 +152,11 @@ HashMap. Используете ли вы на практике? Если да, 
 
 Какие типы данных мы можем положить в Bundle?
 
-В чем разница между Serializable и Parcelable?
+В чем разница между Serializable и Parcelable? [answer](/android/appComponents/SerializableAndParcelabe.md)
 
 Если фрагмент для работы нуждается во входных данных, каким образом будет правильно передать их фрагменту?
 
-Что такое ViewModel? Какие ее свойства?
+Что такое ViewModel? Какие ее свойства? 
 
 Объясните работу ViewModel с Jetpack. Что такое ViewModelProviders, ViewModelProvider.Factory?
 
