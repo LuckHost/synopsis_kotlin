@@ -1,6 +1,7 @@
 ### Примитивы 
 
 В Kotlin нет примитивных типов int, float, double и т. д., всё является объектами. 
+
 Вместо примитивных типов используются объекты: 
 - Byte; 
 - Short; 
@@ -11,31 +12,9 @@
 - Long; 
 - Boolean. 
 
-### Пары
+Но все же при преобразовании в JVM происходит оптимизация и некоторые объекты будут конвертированы в примитивы.
 
-`data class Pair<out A, out B> : Serializable`
-`Pair(first: A, second: B)`
-
-
-Позволяет получать пары объектов
-
-```kotlin
-fun main() {
-    val somelist = listOf("a" to 1, "b" to 3, "c" to 2)
-    somelist.forEach {
-        item -> 
-        println(item.javaClass.kotlin)
-    }
-}
-```
-
-**Вывод**
-```kotlin
-class kotlin.Pair (Kotlin reflection is not available)
-class kotlin.Pair (Kotlin reflection is not available)
-class kotlin.Pair (Kotlin reflection is not available)
-```
-
+Например, когда объявляется переменная `val myAge: Int = 18`, Kotlin будет хранить фактическое значение (18) прямо в памяти как примитивное целое число, когда оно используется в беззнаковом контексте
 
 ### Диапозоны
 
@@ -71,3 +50,35 @@ fun someFun(vararg numbers: Int) {
 
 - **В объявлении фрагмента** это приводит к багам и утечкам памяти, так как хранится ссылка на старые невидимые объекты, которым не был передан null после Destroy. Решается переведения фрагмента в nullable тип 
 - **В асинхронных операциях**
+
+### `const val` и `val`
+
+`const val` - константная переменна времени компиляции. В JVM будет интерпритирована как статическая. Данный вид определения переменной заставляет компилятор встраивать значение константы во все места использования (inline). Использование константы даже не отображается в байт-коде, присутствует только значение константы.
+
+`val` - переменная времени выполнения
+
+
+### Пары
+
+`data class Pair<out A, out B> : Serializable`
+`Pair(first: A, second: B)`
+
+
+Позволяет получать пары объектов
+
+```kotlin
+fun main() {
+    val somelist = listOf("a" to 1, "b" to 3, "c" to 2)
+    somelist.forEach {
+        item -> 
+        println(item.javaClass.kotlin)
+    }
+}
+```
+
+**Вывод**
+```kotlin
+class kotlin.Pair (Kotlin reflection is not available)
+class kotlin.Pair (Kotlin reflection is not available)
+class kotlin.Pair (Kotlin reflection is not available)
+```

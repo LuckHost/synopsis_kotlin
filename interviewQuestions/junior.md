@@ -132,19 +132,19 @@
 
 # Kotlin 
 
-Как задекларировать getter/setter для property?
+Как задекларировать getter/setter для property? [answer](/basics/syntaxKotlin/gettersAndSetters.md)
 
-Почему классы Kotlin по умолчанию final?
+Почему классы Kotlin по умолчанию final? 
 
 Какая разница между sealed class и enum?
 
-Почему у Kotlin нет checked exceptions?
+Почему у Kotlin нет checked exceptions? 
 
 Что такое перегрузка операторов (operator overloading)? Зачем нужен этот механизм?
 
-Как работают примитивы в Kotlin?
+Как работают примитивы в Kotlin? [answer](/basics/syntaxKotlin/kotlin.md/#примитивы)
 
-Чем отличается const val от val?
+Чем отличается const val от val? [answer](/basics/syntaxKotlin/kotlin.md/#const-val-и-val)
 
 Зачем нужны Coroutines? Чем они лучше обычных тредов? [answer](/coroutines/About.md)
 
