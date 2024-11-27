@@ -95,10 +95,10 @@
 # Android SDK
 
 Какие базовые Android-компоненты можете назвать?
-- Broadcast Receiver
-- Services
-- Activity
-- Content Provider
+- [Broadcast Receiver](/android/appComponents/components/broadcastReceiver.md)
+- [Services](/android/appComponents/components/Service.md)
+- [Activity](/android/appComponents/components/Activity.md)
+- [Content Provider](/android/appComponents/components/ContentProvider.md)
 
 Что такое ContentProvider? [answer](/android/appComponents/components/ContentProvider.md)
 
@@ -118,7 +118,7 @@
 
 Что такое DataBinding? [answer](/UI/XML/DataBinding.md)
 
-Что такое LiveData? Какие виды знаете? [answer](/libraries/LiveData/LiveData.md/#виды)
+Что такое LiveData? Какие виды знаете? [answer](/libraries/LiveData/LiveData.md)
 
 Расскажите, что нужно реализовать, чтобы отобразить список строк в RecyclerView. [answer](/UI/XML/RecyclerView/About.md)
 
