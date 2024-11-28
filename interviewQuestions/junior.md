@@ -8,12 +8,9 @@
 
 Что такое нотация big-O?
 
-Какие алгоритмы сортировки вы знаете?
+Какие алгоритмы сортировки вы знаете? [answer](/algorithms/sort/About.md)
 
-
- 
-
-Структуры данных
+## Структуры данных
 Расскажите о таких структурах данных, как List, Set, Map? [answer](/basics/collections/About.md)
 
 Какая разница между ArrayList и LinkedList? [answer](/basics/collections/List.md)
@@ -156,7 +153,7 @@
 
 Что такое Scope? [answer](/coroutines/Scope.md)
 
-Как писать Java compatible API в Kotlin?
+Как писать Java compatible API в Kotlin? [answer](/basics/syntaxKotlin/javaCompatibleAPI.md)
 
 # Другое
 

@@ -126,9 +126,9 @@ HashMap. Используете ли вы на практике? Если да, 
 
 Как реализовать отложенную задачу?
 
-Что такое Doze Mode?
+Что такое Doze Mode? [answer](/android/features/dozeMode.md)
 
-Что такое App Standby mode?
+Что такое App Standby mode? [answer](/android/features/dozeMode.md/#app-standby)
 
 Что такое AIDL и зачем он нужен? Какие типы данных поддерживаются? [answer](/android/aidl.md)
 
