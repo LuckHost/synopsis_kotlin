@@ -15,7 +15,7 @@ class SomeClass() {
 class SomeClass(
   private val aboba: SomeCoolClassInterface
 ) {
-  // doing realy cool things like watch anime
+  // doing really cool things like watch anime
   // >:)
 }
 ```
